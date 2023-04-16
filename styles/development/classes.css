@@ -1,0 +1,40 @@
+.hidden {
+	display: none;
+}
+.selected {
+	background-color: rgb(104, 104, 104);
+}
+.bg-red {
+	background-color: crimson;
+}
+.bg-green {
+	background-color: rgb(50, 220, 30);
+}
+.text-red {
+	color: crimson;
+}
+.text-green {
+	color: rgb(50, 220, 30);
+}
+
+.form-field {
+	position: relative;
+	min-height: 100px;
+	padding: var(--padding);
+}
+.form-field > label {
+	position: absolute;
+	left: 5%;
+	z-index: 10;
+	border: var(--border-width) var(--border-style) rgb(117, 117, 117);
+	background-color: rgb(0, 0, 0);
+}
+.form-field > input {
+	position: relative;
+	top: 15px;
+	z-index: 9;
+}
+.error_message {
+	padding: var(--padding);
+	background-color: rgb(153, 27, 27);
+}

@@ -1,0 +1,29 @@
+:root {
+	--border-radius: 5px;
+	--border-width: 1px;
+	--border-style: solid;
+
+	--color-assistant: rgb(255, 255, 255);
+	--color-mb: rgb(107, 255, 62);
+	--color-eb: rgb(255, 139, 207);
+	--color-cb: rgb(255, 152, 68);
+	--color-ib: rgb(159, 100, 255);
+
+	--color-layout: rgb(255, 74, 246);
+	--color-component: rgb(43, 151, 0);
+	--color-list: rgb(255, 152, 68);
+	--color-item: rgb(77, 124, 255);
+
+	--padding: 2px;
+	--row-gap: 8px;
+	--col-gap: 8px;
+}
+
+@media screen and (max-width: 400px) {
+	:root {
+		--border-width: 2px;
+		--padding: 2px;
+		--row-gap: 6px;
+		--col-gap: 6px;
+	}
+}
